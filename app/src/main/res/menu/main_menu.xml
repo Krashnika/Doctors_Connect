@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/medicalhistory"
+        android:title="Medical History" android:icon="@drawable/history"
+        />
+
+
+    <item
+        android:id="@+id/search"
+        android:title="Search Physicians"
+        android:visible="false" android:icon="@drawable/physician"/>
+
+    <item
+        android:id="@+id/tests"
+        android:title="Tests" android:icon="@drawable/test"/>
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile" android:icon="@drawable/profile"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout" android:icon="@drawable/logout"/>
+
+
+</menu>
