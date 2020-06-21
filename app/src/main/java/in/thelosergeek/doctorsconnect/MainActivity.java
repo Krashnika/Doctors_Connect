@@ -165,14 +165,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 FirebaseAuth.getInstance().signOut();
                 UpdateUI();
                 break;
-            case R.id.medicalhistory:
-                Intent mintent = new Intent(MainActivity.this, HistoryActivity.class);
-                startActivity(mintent);
-                break;
-            case R.id.search:
-                Intent nintent = new Intent(MainActivity.this, SearchActivity.class);
-                startActivity(nintent);
-                break;
 
         }
         return true;
